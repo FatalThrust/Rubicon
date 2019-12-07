@@ -1,0 +1,9 @@
+{
+  "type": "material",
+  "name": "Temper Glass",
+  "description": "Stronger Variant of Metaglass used to make Cryogenic Conduit!",
+  "hardness": 5,
+  "tier": 2,
+  "cost": 1,
+  "color": "00FF00"
+}

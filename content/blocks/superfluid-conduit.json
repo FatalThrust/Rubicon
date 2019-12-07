@@ -1,0 +1,16 @@
+{
+  "type": "Conduit",
+  "name": "Cryogenic Conduit",
+  "description": "Special Type of Conduit primarily for Cryogenic Fluids, supports all fluids however!\n Combats Viscosity of Liquids.",
+  "health": 500,
+  "category": "liquid",
+  "speed": 0.36,
+  "requirements": [
+    { "item": "titanium", "amount": 25},
+    { "item": "copper", "amount": 20 },
+    { "item": "silicon", "amount":  10},
+    { "item": "temper-glass", "amount": 5},
+    { "item": "thorium", "amount": 5}
+  ],
+  "leakResistance": 6
+}

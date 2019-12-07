@@ -1,0 +1,9 @@
+{
+  "type": "material",
+  "name": "Uranium",
+  "description": "A radioactive material containing uncountable energy inside.",
+  "hardness": 5,
+  "tier": 2,
+  "cost": 1,
+  "color": "00FF00"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "Conveyor",
+  "name": "Surge Conveyor",
+  "description": "Surges ore to transport at faster speeds, at the cost of Armor.",
+  "health": 45,
+  "speed": 0.18,
+  "itemCapacity": 4,
+  "requirements": [
+    {
+      "item": "titanium",
+      "amount": 20
+    },
+    {
+      "item": "copper",
+      "amount": 30
+    },
+    {
+      "item": "thorium",
+      "amount": 20
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 2
+    }
+  ]
+}

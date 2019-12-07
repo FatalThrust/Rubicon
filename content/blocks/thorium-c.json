@@ -1,0 +1,12 @@
+{
+  "type": "ArmoredConveyor",
+  "name": "Thorium Conveyor",
+  "description": "Slightly Faster than Titanium Conveyors, \nDoesn't Take Input from the Sides",
+  "health": 145,
+  "speed": 0.14,
+  "requirements": [
+    { "item": "titanium", "amount": 5 },
+    { "item": "copper", "amount": 20 },
+    { "item": "thorium", "amount": 2}
+  ]
+}

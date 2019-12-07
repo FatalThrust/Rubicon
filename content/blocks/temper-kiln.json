@@ -1,0 +1,36 @@
+{
+  "type": "GenericSmelter",
+  "name": "Temper Kiln",
+  "liquidCapacity": 100,
+  "size": 2,
+  "outputItem": {"item": "temper-glass", "amount":  1},
+  "hasItems": true,
+  "hasPower": true,
+  "hasLiquids": true,
+  "health": 230,
+  "craftTime": 120,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        { "item": "metaglass", "amount": 10},
+        { "item": "silicon", "amount": 2 }
+      ]
+    },
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.1
+    }
+  },
+  "requirements": [
+    { "item": "metaglass", "amount": 50 },
+    { "item": "titanium", "amount": 150 },
+    { "item": "silicon", "amount": 50},
+    { "item": "graphite", "amount": 50 },
+    { "item": "surge-alloy", "amount":  10}
+  ],
+  "category": "crafting",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.25
+}

@@ -1,0 +1,34 @@
+{
+  "type": "GenericSmelter",
+  "name": "Uranium Processor",
+  "description": "Stablizes Uranium with immense Cyrofluid and sand, producing highly radioactive Uranium 115",
+  "liquidCapacity": 200,
+  "outputItem": {"item": "sand", "amount": 1},
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "craftTime": 270,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 10,
+    "items": {
+      "items": [
+        { "item": "uranium", "amount": 1 },
+        { "item": "sand", "amount":  20 }
+      ]
+    },
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 2.5
+    }
+  },
+  "requirements": [
+    { "item": "lead", "amount": 125 },
+    { "item": "titanium", "amount": 400 },
+    { "item": "silicon", "amount": 200 }
+  ],
+  "category": "crafting",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.2
+}
